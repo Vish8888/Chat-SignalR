@@ -1,0 +1,14 @@
+bin
+obj
+.vs
+*.user
+*.suo
+*.userprefs
+*.log
+Dockerfile
+docker-compose*
+*.mdf
+*.ldf
+.vscode
+*.db
+.idea
