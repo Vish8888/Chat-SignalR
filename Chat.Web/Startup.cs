@@ -62,7 +62,7 @@ namespace Chat.Web
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
+                //app.UseDeveloperExceptionPage();
                 app.UseMigrationsEndPoint();
             }
             else
