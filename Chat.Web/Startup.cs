@@ -42,7 +42,7 @@ namespace Chat.Web
                 options.User.RequireUniqueEmail = true;
             }).AddEntityFrameworkStores<ApplicationDbContext>();
 
-            services.AddAutoMapper(typeof(Startup));
+            services.AddAutoMapper(_ => { }, typeof(Startup).Assembly);
             services.AddTransient<IFileValidator, FileValidator>();
             services.AddRazorPages();
             services.AddControllers();
